@@ -18,6 +18,7 @@ What doesn't yet
 -21-jul-2020 - now using OpenCanopy
 -21-jul-2020 - cleaned up kexts, the unused ones now removed
 -21-jul-2020 - redid the portmapping through hackintool (kext is now USBPorts.kext)
+-20-Aug-2020 - updated OpenCore to 6.0.0
 
 Bios
 ----
