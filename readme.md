@@ -3,7 +3,7 @@
 - This repo is forked from: https://github.com/Old-Black-Dog/Hackintosh-ASRock-Z490M-ITX-ac. (Credit: Old-Black-Dog@github)
 - The origin post on reddit: https://www.reddit.com/r/hackintosh/comments/hl0kbe/asrock_z490itxac_intel_10700k_catalina_155_nzxt/. (Credit: OoJimboO@reddit)
 
-# Spec
+### Spec
 - MotherBoard: ASRock z490m-itx/ac
 - CPU: i7-10700k
 - GPU: AMD 5600XT
