@@ -34,6 +34,7 @@
 - 21-jul-2020: now using OpenCanopy
 - 21-jul-2020: cleaned up kexts, the unused ones now removed
 - 21-jul-2020: redid the portmapping through hackintool (kext is now USBPorts.kext)
+- 20-Aug-2020: updated OpenCore to 6.0.0
 
 #### Bios 
 - All images (todo:markup relevant changes): [Bios Images](https://github.com/Old-Black-Dog/Hackintosh-ASRock-Z490M-ITX-ac/blob/master/Images/Bios/ASRockz490mitxac_bios_%202020-07-17%2008.28.20.pdf)
