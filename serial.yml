@@ -1,0 +1,27 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: Include vault
+    no_log: true
+    include_vars:
+      file: data.yml
+
+  - name: Replace Serial Number
+    replace:
+      path: EFI/OC/config.plist
+      regexp: '(^.*)<key>SystemSerialNumber</key>(\s*)<string>(\S+)</string>'
+      replace: '\1<key>SystemSerialNumber</key>\2<string>{{ serial }}</string>'
+
+  - name: Replace System UUID Number
+    replace:
+      path: EFI/OC/config.plist
+      regexp: '(^.*)<key>SystemUUID</key>(\s*)<string>(\S+)</string>'
+      replace: '\1<key>SystemUUID</key>\2<string>{{ uuid }}</string>'
+
+  - name: Replace MLB
+    replace:
+      path: EFI/OC/config.plist
+      regexp: '(^.*)<key>MLB</key>(\s*)<string>(\S+)</string>'
+      replace: '\1<key>MLB</key>\2<string>{{ MLB }}</string>'
+
