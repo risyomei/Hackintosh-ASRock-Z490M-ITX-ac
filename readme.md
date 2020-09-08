@@ -14,7 +14,7 @@
 - Apple Store
 - Ethernet (intel 1219v)
 - Sleep/Wake
-- Sound - Headphones (front), Internal Speaker (rear), Microphone (rear)  (via FakePCIID patch kext).
+- Sound - Headphones (front), Internal Speaker (rear), Microphone (rear).
 - CPU/GPU identified correctly in System Properties
 - iMesage/iPhoto/iCloudDrive... (Find My Mac is not working)
 
@@ -34,7 +34,13 @@
 - 21-jul-2020: now using OpenCanopy
 - 21-jul-2020: cleaned up kexts, the unused ones now removed
 - 21-jul-2020: redid the portmapping through hackintool (kext is now USBPorts.kext)
-- 20-Aug-2020: updated OpenCore to 6.0.0
+- 20-Aug-2020: updated OpenCore to 0.6.0
+- 08-Sep-2020: 
+  - Updated OpenCore to 0.6.1 for iMac 20,1 support 
+  - Removed Intel Bluetooth Kext (Because I am using BCM94360NG)
+  - Updated AppleALC to 1.5.2
+    - Removed WorkAround discribed in https://www.reddit.com/r/hackintosh/comments/i1jzhk/alc1220_not_working_on_z490/ 
+    - Updated LiLu.kext to 1.4.7 as the dependency 
 
 #### Bios 
 - All images (todo:markup relevant changes): [Bios Images](https://github.com/Old-Black-Dog/Hackintosh-ASRock-Z490M-ITX-ac/blob/master/Images/Bios/ASRockz490mitxac_bios_%202020-07-17%2008.28.20.pdf)
