@@ -41,6 +41,7 @@
   - Updated AppleALC to 1.5.2
     - Removed WorkAround discribed in https://www.reddit.com/r/hackintosh/comments/i1jzhk/alc1220_not_working_on_z490/ 
     - Updated LiLu.kext to 1.4.7 as the dependency 
+  - Fixed DRM
 
 #### Bios 
 - All images (todo:markup relevant changes): [Bios Images](https://github.com/Old-Black-Dog/Hackintosh-ASRock-Z490M-ITX-ac/blob/master/Images/Bios/ASRockz490mitxac_bios_%202020-07-17%2008.28.20.pdf)
