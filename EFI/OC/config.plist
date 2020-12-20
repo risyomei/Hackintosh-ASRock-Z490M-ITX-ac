@@ -779,7 +779,7 @@
 			<key>MinimumVolume</key>
 			<integer>20</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string>auto</string>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
