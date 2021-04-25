@@ -16,7 +16,8 @@
 - Sleep/Wake
 - Sound - Headphones (front), Internal Speaker (rear), Microphone (rear).
 - CPU/GPU identified correctly in System Properties
-- iMesage/iPhoto/iCloudDrive... (Find My Mac is not working)
+- iMesage/iPhoto/iCloudDrive... ~~(Find My Mac is not working)~~
+- FindMyMac worked with BCM94360NG.
 
 ### Mostly:
 - Bluetooth: (from stock intel ax200 m.2)
@@ -43,6 +44,7 @@
     - Updated LiLu.kext to 1.4.7 as the dependency 
   - Fixed DRM
 - 20-Dec-2020: updated OpenCore to 0.6.4
+- 25-Apr-2021: updated OpenCore to 0.6.8 (Now Working with BigSur)
 
 #### Bios 
 - All images (todo:markup relevant changes): [Bios Images](https://github.com/Old-Black-Dog/Hackintosh-ASRock-Z490M-ITX-ac/blob/master/Images/Bios/ASRockz490mitxac_bios_%202020-07-17%2008.28.20.pdf)
